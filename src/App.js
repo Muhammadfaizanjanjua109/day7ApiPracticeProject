@@ -1,23 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import Api from './Api';
+import Cardan from './Cardan';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1 className='h1'>Day 6 of 100 Days Code Chellenge</h1>
+      <p>All Data by fetch api and design using bootstrap for react</p>
+    <Api/>
+   
     </div>
   );
 }
