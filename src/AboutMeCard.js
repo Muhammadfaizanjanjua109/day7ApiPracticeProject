@@ -1,7 +1,9 @@
 import React from 'react'
 import { Card } from 'react-bootstrap'
-
+import CardData from './CardData'
 function AboutMeCard() {
+
+    
   return (
    <>
   <div className='row'>
