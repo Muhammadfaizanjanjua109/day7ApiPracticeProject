@@ -9,7 +9,7 @@ function Mainnav() {
       <Navbar.Brand>Day8</Navbar.Brand>
       <Nav className="me-auto">
      <Link className='NavLink' to="/">Home</Link>
-        <Link  className='NavLink'  to="/AboutUs">About Us</Link>
+        <Link  className='NavLink'  to="/about">About Us</Link>
         {/* <Link to="/Day9">Contact Us</Link> */}
       </Nav>
       </Container>
