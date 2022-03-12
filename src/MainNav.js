@@ -1,16 +1,16 @@
 import React from 'react'
 import {Nav, Navbar,Container } from 'react-bootstrap'
-
+import { Link } from "react-router-dom";
 function Mainnav() {
   return (
     <>
     <Navbar bg="dark" variant="dark">
       <Container>
-      <Navbar.Brand href="#home">Day8</Navbar.Brand>
+      <Navbar.Brand>Day8</Navbar.Brand>
       <Nav className="me-auto">
-        <Nav.Link href="#home">Home</Nav.Link>
-        <Nav.Link href="#features">About Us</Nav.Link>
-        <Nav.Link href="#pricing">Contact Us</Nav.Link>
+     <Link className='NavLink' to="/">Home</Link>
+        <Link  className='NavLink'  to="/AboutUs">About Us</Link>
+        {/* <Link to="/Day9">Contact Us</Link> */}
       </Nav>
       </Container>
     </Navbar>
