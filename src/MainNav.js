@@ -10,6 +10,7 @@ function Mainnav() {
       <Nav className="me-auto">
      <Link className='NavLink' to="/">Home</Link>
         <Link  className='NavLink'  to="/about">About Us</Link>
+        <Link  className='NavLink'  to="/filter">Filter Page</Link>
         {/* <Link to="/Day9">Contact Us</Link> */}
       </Nav>
       </Container>
