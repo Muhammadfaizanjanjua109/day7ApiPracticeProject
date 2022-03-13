@@ -1,11 +1,13 @@
 import React from 'react'
 
-function FilterPage({filterItem}) {
+function FilterPage({filterItem,catagory}) {
   return (
    <>
     <div>FilterPage</div>
-    <button className='btn btn-danger' onClick={()=>{filterItem('Chaprasi')}}>Chaprasi</button>
-<button className='btn btn-danger' onClick={()=>{filterItem('all')}}>All</button>
+{catagory[0].map((cat)=>{
+  return   <button className='btn btn-info' onClick={()=>{filterItem(cat)}}>{cat}</button>
+})}
+
    </>
   )
 }
